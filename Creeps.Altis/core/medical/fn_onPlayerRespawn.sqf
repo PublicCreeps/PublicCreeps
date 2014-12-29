@@ -30,3 +30,9 @@ player playMoveNow "amovppnemstpsraswrfldnon";
 [] call life_fnc_setupActions;
 [[_unit,life_sidechat,playerSide],"TON_fnc_managesc",false,false] spawn life_fnc_MP;
 player enableFatigue (__GETC__(life_enableFatigue));
+/*
+case east: {	
+
+	[] spawn life_fnc_adacDefault;
+};
+*/

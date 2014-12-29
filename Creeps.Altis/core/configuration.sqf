@@ -128,6 +128,11 @@ switch (playerSide) do
 		life_atmcash = 20000;
 		life_paycheck = 3500;
 	};
+	
+	case east: {
+		life_atmcash = 20000;
+		life_paycheck = 3500;
+	};
 };
 
 /*

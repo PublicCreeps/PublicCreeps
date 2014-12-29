@@ -25,6 +25,13 @@ switch (_side) do
 		];
 	};
 	
+	case east: 
+	{
+		_return = [
+			["adac_spawn_1","Kavala ADAC","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+		];
+	}; 
+	
 	case civilian:
 	{
 		_return = [

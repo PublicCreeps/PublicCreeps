@@ -62,6 +62,14 @@ class Life_Client_Core
 		class adminRevive {};
 	};
 	
+	lass Adac
+	{
+		file = "core\adac";
+		class adacloadGear {};
+		class adacsaveGear {};
+		class adacMarkers {};
+	};
+	
 	class Medical_System
 	{
 		file = "core\medical";
