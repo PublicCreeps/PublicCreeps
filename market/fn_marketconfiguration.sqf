@@ -12,152 +12,115 @@ life_market_resources = [
 	//Schema: SHORTNAME, Default, Min, Max, changes in action, [Sales multiplied by 1, Purchase multiplied by -1]
 	//["gold", 1500, 450, 2300, 8, 5],
 	
-	["oilp", 2500, 1500, 4000, 4, 2,
+	["oilp", 3000, 1500, 4500, 4, 2,
 		[
 			["diamondc",1],
 			["iron_r",1],
 			["copper_r",1],
 			["salt_r",1],
 			["cement",1],
-			["sugar",1],
 			["glass",1]
 		]
 	]
 	,
 	
-	["iron_r", 2500, 1500, 4000, 4, 4,  
+	["iron_r", 1200, 600, 1800, 4, 4,  
 		[ 
 			["diamondc",1], 
 			["oilp",1],
 			["copper_r",1],
 			["salt_r",1],
 			["cement",1],
-			["sugar",1],
 			["glass",1]
 		] 
 	],
 	
-	["diamondc", 3500, 2000, 5500, 4, 2, 
+	["diamondc", 3500, 1750, 5250, 4, 2, 
 		[ 
 			["oilp",1],
 			["iron_r",1],
 			["copper_r",1],
 			["salt_r",1],
 			["cement",1],
-			["sugar",1],
 			["glass",1]
 		] 
 	],
 	
-	["copper_r", 1500, 1000, 2500, 4, 4,
+	["copper_r", 1500, 750, 2250, 4, 4,
 		[ 
 			["diamondc",1], 
 			["oilp",1],
 			["iron_r",1],
 			["salt_r",1],
 			["cement",1],
-			["sugar",1],
 			["glass",1]
 		] 
 	],
 	
-	["salt_r", 1500, 1000, 2500, 4, 3,
+	["salt_r", 2500, 1250, 3750, 4, 3,
 		[ 
 			["diamondc",1], 
 			["oilp",1],
 			["iron_r",1],
 			["copper_r",1],
 			["cement",1],
-			["sugar",1],
 			["glass",1]
 		] 
 	],
 	
-	["glass", 1500, 1000, 2500, 4, 3,
+	["glass", 2300, 1150, 3450, 4, 3,
 		[ 
 			["diamondc",1], 
 			["oilp",1],
 			["iron_r",1],
 			["copper_r",1],
 			["salt_r",1],
-			["sugar",1],
 			["cement",1]
 		] 
 	],
 	
-	["cement", 1500, 1000, 2500, 4, 3,
+	["cement", 1900, 950, 2850, 4, 3,
 		[ 
 			["diamondc",1], 
 			["oilp",1],
 			["iron_r",1],
 			["copper_r",1],
 			["salt_r",1],
-			["sugar",1],
 			["glass",1]
 		] 
 	],
-	
-	["sugar", 1500, 1000, 2500, 4, 3,
-		[
-			["diamondc",1], 
-			["oilp",1],
-			["iron_r",1],
-			["copper_r",1],
-			["cement",1],
-			["salt_r",1],
-			["glass",1]
-		]
-	],
-///////////////////////// ILLEGALE ITEMS
+/////////////////////////
 	
 	["turtle", 3000, 1500,4500, 4, 4,  
 		[ 
 			["marijuana",1], 
 			["cocainep",1],
-			["methp",1],
 			["heroinp",1]
 		] 
 	],
 
-	["marijuana", 6000, 4000, 8000, 4, 4,   
+	["marijuana", 5500, 2750, 8250, 4, 4,   
 		[ 
 			["turtle",1], 
 			["cocainep",1],
-			["methp",1],
 			["heroinp",1]
 		] 
 	],
 	
-	["cocainep", 6000, 4000, 8000, 4, 4,   
+	["cocainep", 8000, 4000, 12000, 4, 4,   
 		[ 
 			["marijuana",1], 
 			["turtle",1],
-			["methp",1],
 			["heroinp",1]
 		] 
 	],
 
-	["heroinp", 5000, 3000, 7000, 4, 4,   
+	["heroinp", 7000, 3500, 11500, 4, 4,   
 		[ 
 			["marijuana",1], 
 			["turtle",1],
-			["methp",1],
 			["cocainep",1]
 		] 
-	],
-	
-	["methp", 7000, 4000, 9000, 4, 4,
-		[
-			["marijuana",1], 
-			["turtle",1],
-			["heroinp",1],
-			["cocainep",1]
-		]
-	],
-	
-	["goldbar", 50000, 50000, 50000, 4, 4,
-		[
-		]
 	]
 ];
 publicVariable "life_market_resources";
